@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+void vecpr(vector<int> &number)
+{
+    for(int i=0; i<number.size(); ++i)
+    {
+        cout<<number[i];
+         cout<<"\t";
+    }
+   
+}
+
+int main()
+{
+   
+   int n;
+   cin>>n;
+   vector<int> number(n);
+   for(int i=0; i<n; ++i)
+   {
+    //   int in;
+    //   cin>>in;
+    //   number.push_back(in);
+   cin>>number[i];
+   }
+    
+   vecpr(number);
+  
+
+    return 0;
+}
