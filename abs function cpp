@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+#include <iostream>
+#include <string>
+#include <cctype>
+#include <algorithm>
+#include <cstring>
+
+using namespace std;
+
+int main()
+{
+    int a=5;
+  
+
+ cout<< abs(a-3)<<endl; // result will be (2)
+
+ cout<< abs(a/3)<<endl;  // result will be (1)
+ 
+ cout<< abs(a%3)<<endl;  // result will be(2)
+
+    return 0;
+}
